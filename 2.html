@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天猫</title>
+
+    <style>
+        .box{
+            width: 239px;
+            height: 319px;
+            position: relative;
+        }
+
+        #index{
+            background: #cccccc;
+        }
+        #index a{
+            text-decoration: none;
+        }
+
+        #index a{
+            float: left;
+            border: 1px solid #ffffff;
+            margin-right: 10px;
+            background: #ffffff;
+        }
+
+        #index .erimg,#index .xichengqi{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .erimg{
+            width: 185px;
+            height: 185px;
+        }
+        .xichengqi{
+            width: 185px;
+            height: 185px;
+        }
+
+        #index a:hover{
+            border: 1px solid red;
+        }
+
+        #index .words{
+            position: absolute;
+            top: 185px;
+        }
+
+        #index .name{
+            width: 134px;
+            position: absolute;
+            top: 18px;
+            left:50px;
+        }
+
+        #index .price{
+            position: absolute;
+            top: 80px;
+            left:85px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="index">
+    <a href="" class="box box1">
+        <img class="erimg" src="erji.jpg" alt="">
+        <div class="words">
+        <div class="name">苹果无线蓝牙耳机可接听电话双耳迷</div>
+        <div class="price">￥299</div>
+        </div>
+    </a>
+    <a href="" class="box box2">
+        <img class="xichengqi" src="xichenqi.jpg" alt="">
+        <div class="words">
+        <div class="name">Dibea地贝无线吸尘器家用小型手持</div>
+        <div class="price">￥1299</div>
+        </div>
+    </a>
+</div>
+</body>
+</html>
